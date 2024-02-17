@@ -5,16 +5,34 @@
         justify-content: center;
         margin-top: 10px;
     }
+
+    .services {
+        margin-top: 100px;
+    }
+
+    .services .row {
+        flex-direction: column;
+    }
+
+    .services .row .service-content {
+        width: 100%;
+    }
 }
 
 @media (max-width: 376px) {
     .home {
-        margin-top: 200px;;
+        margin-top: 200px;
+        ;
+    }
+
+    .services {
+        margin-top: 45vh;
     }
 }
 
 @media (max-width: 281px) {
     .home {
-        margin-top: 250px;;
+        margin-top: 250px;
+        ;
     }
 }
