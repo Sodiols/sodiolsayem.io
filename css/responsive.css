@@ -5,7 +5,7 @@
         justify-content: center;
         margin-top: 10px;
     }
-    
+
     .services {
         margin-top: 100px;
     }
@@ -13,7 +13,7 @@
     .services .row {
         flex-direction: column;
     }
-
+ 
     .services .row .service-content {
         width: 100%;
     }
