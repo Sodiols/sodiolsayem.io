@@ -21,7 +21,7 @@
             display: grid;
             font-family: Arial, Helvetica, sans-serif;
             background: #fff;
-            box-shadow: 2px 2px 70px 0px rgba(0,0,0,0.2);
+            box-shadow: 2px 2px 70px 0px rgba(0, 0, 0, 0.2);
             justify-content: center;
             align-items: center;
             width: 250px;
@@ -74,11 +74,13 @@
             const email = prompt('Enter Your Email');
 
             if (email !== null && email !== '') {
+                window.location.href = `mailto:itssayem2023@gmail.com?subject=Contact&body=Email: ${email}`;
                 alert("We'll contact you via email");
             } else {
-                alert("You've to put your email on the prompt")
+                alert("You have to put your email in the prompt.");
             }
         });
+
 
     </script>
 </body>
